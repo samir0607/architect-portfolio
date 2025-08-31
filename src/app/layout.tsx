@@ -29,7 +29,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="fixed inset-0 -z-10">
-          <Iridescence color={[0.4, 0.7, 0.75]} speed={1.2} amplitude={0.15} />
+          <Iridescence color={[0.49, 0.13, 0.2]} speed={1.2} amplitude={1} />
         </div>
         {children}
       </body>

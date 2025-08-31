@@ -6,7 +6,7 @@ import { shorts, thumbnails } from "../constants/index";
 export default function Activity() {
   const [activeShort, setActiveShort] = useState(0);
   const videoRefs = useRef<(HTMLVideoElement | null)[]>([]);
-  const rotationIntervalMs = 10000; // 6 seconds
+  const rotationIntervalMs = 10000;
 
   // helper to set videoRefs[idx]
   function setVideoRef(el: any, idx: number) {
@@ -52,7 +52,7 @@ export default function Activity() {
   }, [activeShort]);
 
   return (
-    <div className="min-h-screen p-6">
+    <div className="min-h-screen pb-6">
       <div className="text-3xl md:text-5xl font-bold mb-8">What I love to do...</div>
       
       {/* Main container with proper responsive layout */}

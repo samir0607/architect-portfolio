@@ -6,7 +6,7 @@ import Skills from "../sections/Skills";
 
 export default function Home() {
   return (
-    <div className="px-20 md:px-40">
+    <div className="px-10 md:px-40">
       <Intro></Intro>
       <Projects></Projects>
       <Activity></Activity>

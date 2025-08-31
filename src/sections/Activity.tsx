@@ -52,7 +52,7 @@ export default function Activity() {
   }, [activeShort]);
 
   return (
-    <div className="min-h-screen pb-6">
+    <div className="min-h-screen pt-6 pb-6">
       <div className="text-3xl md:text-5xl font-bold mb-8">What I love to do...</div>
       
       {/* Main container with proper responsive layout */}

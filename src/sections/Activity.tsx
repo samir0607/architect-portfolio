@@ -56,7 +56,7 @@ export default function Activity() {
       <div className="text-3xl md:text-5xl font-bold mb-8">What I love to do...</div>
       
       {/* Main container with proper responsive layout */}
-      <div className="bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-lg grid grid-cols-1 xl:grid-cols-[2fr_1fr] gap-8 max-w-7xl mx-auto p-6">
+      <div className="bg-white/20 backdrop-blur-md border border-white/30 rounded-lg grid grid-cols-1 xl:grid-cols-[2fr_1fr] shadow-[0_0_15px_3px_rgba(255,115,0,0.7),0_0_40px_10px_rgba(255,123,128,0.4)] gap-8 max-w-7xl mx-auto p-6">
         
         {/* LEFT: Thumbnails grid */}
         <div className="grid grid-cols-2 grid-rows-2 gap-4 w-full">
@@ -90,7 +90,7 @@ export default function Activity() {
         <div className="flex items-center justify-center">
           <div className="w-full max-w-sm mx-auto">
             {/* Video container with proper 9:16 aspect ratio */}
-            <div className="relative w-full aspect-[9/16] rounded-lg overflow-hidden border bg-black shadow-lg">
+            <div className="relative w-full aspect-[9/16] rounded-lg overflow-hidden border bg-black shadow-[0_0_15px_3px_rgba(255,115,0,0.7),0_0_40px_10px_rgba(255,123,128,0.4)]">
               {shorts.map((s, idx) => (
                 <video
                   key={s.id}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Iridescence from "@/components/Iridescence";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,6 +28,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <div className="fixed inset-0 -z-10">
+          <Iridescence color={[0.4, 0.7, 0.75]} speed={1.2} amplitude={0.15} />
+        </div>
         {children}
       </body>
     </html>

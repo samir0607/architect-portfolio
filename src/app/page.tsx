@@ -11,7 +11,7 @@ export default function Home() {
       <Projects></Projects>
       <Activity></Activity>
       <Skills></Skills>
-      <Contact></Contact>
+      {/* <Contact></Contact> */}
     </div>
   );
 }

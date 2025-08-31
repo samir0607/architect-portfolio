@@ -54,7 +54,7 @@ const SkillItem: React.FC<SkillItemProps> = ({ skill, index }) => {
         transitionDelay: `${index * 150}ms`
       }}
     >
-      <div className="group relative overflow-hidden rounded-xl bg-gradient-to-br from-white/20 via-white/10 to-white/5 backdrop-blur-md shadow-[0_0_15px_3px_rgba(0,215,180,0.7),0_0_40px_10px_rgba(0,223,228,0.4)] p-6 hover:from-white/30 hover:via-white/20 hover:to-white/10 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-blue-500/20">
+      <div className="group relative overflow-hidden rounded-xl bg-gradient-to-br from-white/20 via-white/10 to-white/5 backdrop-blur-md shadow-[0_0_15px_3px_rgba(0,215,180,0.7),0_0_40px_10px_rgba(0,223,228,0.4)] p-5 hover:from-white/30 hover:via-white/20 hover:to-white/10 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-blue-500/20">
         {/* Glossy overlay effect */}
         <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         

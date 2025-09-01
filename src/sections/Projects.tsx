@@ -216,6 +216,11 @@ export default function Projects() {
 							<div className={`mt-6 sm:mt-8 text-center sm:text-left transition-all duration-700 delay-1000 ${
 								portfolioVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
 							}`}>
+								<a 
+								href="https://heyzine.com/flip-book/4a51ef1595.html#page/1" 
+								target="_blank"
+								rel="noopener noreferrer"
+								>
 								<div className="inline-flex items-center space-x-2 text-cyan-600 font-semibold group cursor-pointer">
 									<span className="border-b-2 border-cyan-200 group-hover:border-cyan-400 transition-colors duration-300">
 										View Full Portfolio
@@ -224,6 +229,7 @@ export default function Projects() {
 										<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
 									</svg>
 								</div>
+								</a>
 							</div>
 						</div>
 					</div>
